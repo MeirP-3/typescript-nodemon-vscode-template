@@ -1,2 +1,1 @@
-console.log('a')
-console.log('a')
+// 👇 YOUR TYPESCRIPT CODE HERE 👇
