@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "name": "nodemon",
+      "program": "${workspaceFolder}/src/index.ts",
+      "request": "launch",
+      "restart": true,
+      "sourceMaps": true,
+      
+      "runtimeExecutable": "nodemon",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      // "outFiles": [
+      //   "${workspaceRoot}/dist"
+      // ],      
+      "type": "pwa-node",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
