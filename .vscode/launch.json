@@ -10,7 +10,7 @@
       "restart": true,
       "sourceMaps": true,
       
-      "runtimeExecutable": "nodemon",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/nodemon/bin/nodemon.js",
       "skipFiles": [
         "<node_internals>/**"
       ],
